@@ -7,11 +7,15 @@ camping_items = [
     "Tent",
     "Sleeping Bag",
     "First Aid Kit",
-    "Falshlight"
-    "blanket"
-    "Water"
-    "Food"
-    "Map"
-    "Compass"
+    "Falshlight",
+    "blanket",
+    "Water",
+    "Food",
+    "Map",
+    "Compass",
     "Insect Repellent"
 ]
+#print the total number of item in the list
+print(f"number of items in the list: {len(camping_items)}")
+#this will output the list in alphabetical order
+print("items in alphabetical order:", sorted(camping_items))
