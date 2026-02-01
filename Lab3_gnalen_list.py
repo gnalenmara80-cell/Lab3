@@ -16,6 +16,6 @@ camping_items = [
     "Insect Repellent"
 ]
 #print the total number of item in the list
-print(f"number of items in the list: {len(camping_items)}")
+print(f"Number of items: {len(camping_items)}")
 #this will output the list in alphabetical order
-print("items in alphabetical order:", sorted(camping_items))
+print("Sorted list:", sorted(camping_items))
