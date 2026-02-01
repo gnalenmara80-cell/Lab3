@@ -10,7 +10,7 @@ from Lab3_gnalen_add import camping_items
 middle_index = len(camping_items) // 2
 camping_items[middle_index] = "binoculars"
 
-
+#print the updated list
 print("updated length:", len(camping_items))
 print("Before Binoculars added:", camping_items[:middle_index]     )
 print ("Binoculars:", camping_items[middle_index])
