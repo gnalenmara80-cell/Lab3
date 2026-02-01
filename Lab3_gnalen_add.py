@@ -14,5 +14,7 @@ camping_items.append("Sunscreen")
 camping_items.append("Knife")
 
 #print the updated list
+print("Updated length:", len(camping_items))
+
 print(sorted(camping_items, reverse=True))
 
